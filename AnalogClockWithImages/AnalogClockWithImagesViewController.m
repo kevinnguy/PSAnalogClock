@@ -23,7 +23,7 @@
 {
   [super viewDidLoad];
 
-  [self instantiateClockAndAddImagesAfterAndDoNotStartAnimation];  
+  [self instantiateClockAndAddImagesAfterAndDoNotStartAnimation];
   [self instantiateClockAndAddImagesAfterWithSomeImagesMissing];
 }
 
