@@ -46,6 +46,8 @@ typedef enum {
     [self addSubview:self.minuteHandImageView];
     [self addSubview:self.secondHandImageView];
     [self addSubview:self.centerCapImageView];
+    
+    [self updateClockTimeAnimated:NO];
   }
   
   return self;
