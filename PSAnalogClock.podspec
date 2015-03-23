@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/kevinnguy/PSAnalogClock'
   s.license  = { 'type' => 'Custom', 'text' => 'Copyright 2011 www.paul-samuels.com. All rights reserved.' }
   s.author   = { 'Paul Samuels' => 'paulio1987@gmail.com' }
-  s.source   = { :git => 'https://github.com/kevinnguy/PSAnalogClock.git', :tag => s.version.to_s }
+  s.source   = { :git => 'https://github.com/kevinnguy/PSAnalogClock.git', :tag => :master }
   s.source_files = 'AnalogClockWithImages/PSAnalogClockView.{h,m}'
 
   s.requires_arc = true
